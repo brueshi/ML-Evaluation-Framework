@@ -6,16 +6,22 @@ This framework provides a structured approach to evaluating machine learning mod
 Key Features
 
 Modular Architecture: Easily extensible with new evaluation dimensions
+
 Multi-criteria Evaluation: Assess models across various capabilities simultaneously
+
 Trade-off Analysis: Understand compromises between competing objectives (e.g., helpfulness vs. safety)
 Scalability: Efficiently process large evaluation datasets with parallel execution
+
 Result Persistence: Save, load, and compare evaluation results across model versions
 
 Core Components
 
 BaseEvaluator: Abstract foundation for all evaluators
+
 ScoringEvaluator: Calculates weighted scores across multiple criteria
+
 CompositeEvaluator: Combines multiple evaluators for comprehensive assessment
+
 Specialized Evaluators:
 
 HelpfulnessEvaluator: Measures relevance, completeness, correctness, and clarity
