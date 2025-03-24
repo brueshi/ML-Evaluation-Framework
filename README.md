@@ -10,6 +10,7 @@ Modular Architecture: Easily extensible with new evaluation dimensions
 Multi-criteria Evaluation: Assess models across various capabilities simultaneously
 
 Trade-off Analysis: Understand compromises between competing objectives (e.g., helpfulness vs. safety)
+
 Scalability: Efficiently process large evaluation datasets with parallel execution
 
 Result Persistence: Save, load, and compare evaluation results across model versions
@@ -24,8 +25,9 @@ CompositeEvaluator: Combines multiple evaluators for comprehensive assessment
 
 Specialized Evaluators:
 
-HelpfulnessEvaluator: Measures relevance, completeness, correctness, and clarity
-HarmlessnessEvaluator: Assesses safety across potentially problematic categories
+     HelpfulnessEvaluator: Measures relevance, completeness, correctness, and clarity.
+
+     HarmlessnessEvaluator: Assesses safety across potentially problematic categories.
 
 Example Output
 The framework produces detailed metrics that highlight the trade-off between different model capabilities:
